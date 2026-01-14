@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(85deg, red, green, yellow, blue);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    border: 10px solid black;
+    border-radius: 20px;
+    background: linear-gradient(10deg, purple, palevioletred);
+    width: 200px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 300px;
+    align-items: center;
+    margin-left: 45%;
+    padding: 10px;
+}
+
+.Input {
+    padding: 20px;
+    border: 2px solid black;
+    background: linear-gradient(0deg, red, blue, purple);
+    color: lawngreen;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#Button {
+    margin-top: 20px;
+    background: linear-gradient(20deg, yellow, skyblue);
+    border-radius: 10px;
+}
+

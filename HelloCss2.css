@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(90deg, blue, skyblue, skyblue, blue);
+}
+
+.Div {
+    display: flex;
+    flex-direction: column;
+    border: 10px solid black;
+    border-radius: 20px;
+    background: linear-gradient(90deg, deepskyblue, skyblue, deepskyblue);
+    width: 200px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 300px;
+    align-items: center;
+    margin-left: 45%;
+    padding: 10px;
+}
+
+.Div h1 {
+    color: blue;
+}
+
+.Div a {
+    color: cornflowerblue;
+    font-size: 20px;
+}
